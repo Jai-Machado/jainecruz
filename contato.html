@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaíne Cruz</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!-- anexado o estilo css para customizar a página -->
+
+</head>
+<body>
+    <header class="container"> <!--- <header> - ajuda na introdução/navegação --->
+        <h1 style="color: white; text-align: center;">Jaíne Machado Cruz</h1>
+        <br>
+
+    </header>
+    <nav class="container menu"> <!--- <nav> página com link para outra página/parte da página. Ex. Menu ---> 
+        <ul>
+            <li><a href="index1.html">Experiencia</a></li>
+            <li><a href="portifolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_jai">
+            <img src="jai.png.jpg" width="320" height="320">
+            <div class="Sobre Mim">
+                <p><strong>Data de Nascimento: </strong>24/05/1997</p>
+                <p>
+                    <strong>Nacionalidade:</strong>
+                    Brasileira
+                </p>
+                <p><strong>Formação:</strong> Tecnóloga em Analise e Desenvolvimento de Sistemas</p>
+            </div>
+
+        </aside>
+        <section class="principal"> <!-- <section> agrupa conteúdos, geralmente com título. --> 
+            <h1>
+                Contato
+            </h1>
+            <p><strong>Email: </strong> jainecruz@hotmail.com</p>
+            <p><strong>Celular: </strong> (11)99484-9922</p>
+            <form method="POST" action="outlook.com.br.jps"> <!--- GET = copia infos no link | POST não copia infos| .JSP = ENDEREÇO -->
+                Nome: <input type="text" name="Nome"> <br> <!--- <br> = quebra de linha -->
+                Local: <input type="empresa" name="empresa"> <br>
+                <br>
+                Contate-me:<br>
+                <textarea name="mensagem" rows="10" cols="30"></textarea> 
+                <br>
+                <input type="submit">
+                 
+            </form> 
+        </section>
+    </div>
+    <footer class="container">
+        <h1>À Disposição!</h1>
+    </footer>
+</body>
+
+</html>
+
+
